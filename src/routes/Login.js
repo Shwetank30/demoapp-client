@@ -72,6 +72,7 @@ class Login extends React.Component {
           <Form.Field error={!!passwordError}>
             <Input
               name="password"
+              type="password"
               onChange={this.onChange}
               value={password}
               placeholder="Password"
