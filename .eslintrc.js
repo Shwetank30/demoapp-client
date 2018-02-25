@@ -6,6 +6,7 @@ module.exports = {
     // windows linebreaks when not in production environment
     'linebreak-style': ["error", (require("os").EOL === "\r\n" ? "windows" : "unix")],
     'react/prop-types': 0,
+    'jsx-a11y/anchor-is-valid': 0,
   },
   globals: {
     document: 1,
