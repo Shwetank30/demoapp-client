@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1e3d0e2-9921-45c5-b100-0de0557c892b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" afterPath="$PROJECT_DIR$/.eslintrc.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/components/Teams.js" afterPath="$PROJECT_DIR$/src/components/Teams.js" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/Channels.js" afterPath="$PROJECT_DIR$/src/components/Channels.js" />
       <change beforePath="$PROJECT_DIR$/src/routes/CreateTeam.js" afterPath="$PROJECT_DIR$/src/routes/CreateTeam.js" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Home.js" afterPath="$PROJECT_DIR$/src/routes/Home.js" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Login.js" afterPath="$PROJECT_DIR$/src/routes/Login.js" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Register.js" afterPath="$PROJECT_DIR$/src/routes/Register.js" />
-      <change beforePath="$PROJECT_DIR$/src/routes/ViewTeam.js" afterPath="$PROJECT_DIR$/src/routes/ViewTeam.js" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.js" afterPath="$PROJECT_DIR$/src/routes/index.js" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,7 +20,7 @@
       <file leaf-file-name="Teams.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Teams.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
+            <state relative-caret-position="504">
               <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -39,24 +29,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sidebar.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sidebar.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/Sidebar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="71">
+              <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1519552409782" expanded="true" signature="1136:1231" ph="{...}" />
-                <marker date="1519552409782" expanded="true" signature="1142:1150" ph="allTeams...allTeams" />
-                <marker date="1519552409782" expanded="true" signature="1142:1227" ph="allTeams...{&#10;      id&#10;      name&#10;      channels {&#10;        id&#10;        name&#10;      }&#10;    }" />
-                <marker date="1519552409782" expanded="true" signature="1151:1227" ph="{...}" />
-                <marker date="1519552409782" expanded="true" signature="1159:1161" ph="id...id" />
-                <marker date="1519552409782" expanded="true" signature="1168:1172" ph="name...name" />
-                <marker date="1519552409782" expanded="true" signature="1179:1187" ph="channels...channels" />
-                <marker date="1519552409782" expanded="true" signature="1179:1221" ph="channels...{&#10;        id&#10;        name&#10;      }" />
-                <marker date="1519552409782" expanded="true" signature="1188:1221" ph="{...}" />
-                <marker date="1519552409782" expanded="true" signature="1198:1200" ph="id...id" />
-                <marker date="1519552409782" expanded="true" signature="1209:1213" ph="name...name" />
+                <marker date="1519560542040" expanded="true" signature="1787:1882" ph="{...}" />
+                <marker date="1519560542040" expanded="true" signature="1793:1801" ph="allTeams...allTeams" />
+                <marker date="1519560542040" expanded="true" signature="1793:1878" ph="allTeams...{&#10;      id&#10;      name&#10;      channels {&#10;        id&#10;        name&#10;      }&#10;    }" />
+                <marker date="1519560542040" expanded="true" signature="1802:1878" ph="{...}" />
+                <marker date="1519560542040" expanded="true" signature="1810:1812" ph="id...id" />
+                <marker date="1519560542040" expanded="true" signature="1819:1823" ph="name...name" />
+                <marker date="1519560542040" expanded="true" signature="1830:1838" ph="channels...channels" />
+                <marker date="1519560542040" expanded="true" signature="1830:1872" ph="channels...{&#10;        id&#10;        name&#10;      }" />
+                <marker date="1519560542040" expanded="true" signature="1839:1872" ph="{...}" />
+                <marker date="1519560542040" expanded="true" signature="1849:1851" ph="id...id" />
+                <marker date="1519560542040" expanded="true" signature="1860:1864" ph="name...name" />
               </folding>
             </state>
           </provider>
@@ -65,29 +55,29 @@
       <file leaf-file-name="CreateTeam.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/CreateTeam.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="99" column="8" lean-forward="false" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+            <state relative-caret-position="882">
+              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1519552480914" expanded="true" signature="1936:2095" ph="mutation...{&#10;    createTeam(name: $name) {&#10;      ok&#10;      errors {&#10;        path&#10;        message&#10;      }&#10;    }&#10;  }" />
-                <marker date="1519552480914" expanded="true" signature="1944:1960" ph="(...)" />
-                <marker date="1519552480914" expanded="true" signature="1952:1958" ph="String...String" />
-                <marker date="1519552480914" expanded="true" signature="1961:2095" ph="{...}" />
-                <marker date="1519552480914" expanded="true" signature="1967:1977" ph="createTeam...createTeam" />
-                <marker date="1519552480914" expanded="true" signature="1967:2091" ph="createTeam...{&#10;      ok&#10;      errors {&#10;        path&#10;        message&#10;      }&#10;    }" />
-                <marker date="1519552480914" expanded="true" signature="1977:1990" ph="(...)" />
-                <marker date="1519552480914" expanded="true" signature="1978:1982" ph="name...name" />
-                <marker date="1519552480914" expanded="true" signature="1991:2091" ph="{...}" />
-                <marker date="1519552480914" expanded="true" signature="1999:2001" ph="ok...ok" />
-                <marker date="1519552480914" expanded="true" signature="2008:2012" ph="team...team" />
-                <marker date="1519552480914" expanded="true" signature="2008:2033" ph="team...{&#10;        id&#10;      }" />
-                <marker date="1519552480914" expanded="true" signature="2013:2033" ph="{...}" />
-                <marker date="1519552480914" expanded="true" signature="2023:2025" ph="id...id" />
-                <marker date="1519552480914" expanded="true" signature="2040:2046" ph="errors...errors" />
-                <marker date="1519552480914" expanded="true" signature="2040:2085" ph="errors...{&#10;        path&#10;        message&#10;      }" />
-                <marker date="1519552480914" expanded="true" signature="2047:2085" ph="{...}" />
-                <marker date="1519552480914" expanded="true" signature="2057:2061" ph="path...path" />
-                <marker date="1519552480914" expanded="true" signature="2070:2077" ph="message...message" />
+                <marker date="1519557545280" expanded="true" signature="1936:2095" ph="mutation...{&#10;    createTeam(name: $name) {&#10;      ok&#10;      errors {&#10;        path&#10;        message&#10;      }&#10;    }&#10;  }" />
+                <marker date="1519557545280" expanded="true" signature="1944:1960" ph="(...)" />
+                <marker date="1519557545280" expanded="true" signature="1952:1958" ph="String...String" />
+                <marker date="1519557545280" expanded="true" signature="1961:2095" ph="{...}" />
+                <marker date="1519557545280" expanded="true" signature="1967:1977" ph="createTeam...createTeam" />
+                <marker date="1519557545280" expanded="true" signature="1967:2091" ph="createTeam...{&#10;      ok&#10;      errors {&#10;        path&#10;        message&#10;      }&#10;    }" />
+                <marker date="1519557545280" expanded="true" signature="1977:1990" ph="(...)" />
+                <marker date="1519557545280" expanded="true" signature="1978:1982" ph="name...name" />
+                <marker date="1519557545280" expanded="true" signature="1991:2091" ph="{...}" />
+                <marker date="1519557545280" expanded="true" signature="1999:2001" ph="ok...ok" />
+                <marker date="1519557545280" expanded="true" signature="2008:2012" ph="team...team" />
+                <marker date="1519557545280" expanded="true" signature="2008:2033" ph="team...{&#10;        id&#10;      }" />
+                <marker date="1519557545280" expanded="true" signature="2013:2033" ph="{...}" />
+                <marker date="1519557545280" expanded="true" signature="2023:2025" ph="id...id" />
+                <marker date="1519557545280" expanded="true" signature="2040:2046" ph="errors...errors" />
+                <marker date="1519557545280" expanded="true" signature="2040:2085" ph="errors...{&#10;        path&#10;        message&#10;      }" />
+                <marker date="1519557545280" expanded="true" signature="2047:2085" ph="{...}" />
+                <marker date="1519557545280" expanded="true" signature="2057:2061" ph="path...path" />
+                <marker date="1519557545280" expanded="true" signature="2070:2077" ph="message...message" />
               </folding>
             </state>
           </provider>
@@ -106,7 +96,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
+            <state relative-caret-position="819">
               <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -118,29 +108,29 @@
       <file leaf-file-name="AddChannelModal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/AddChannelModal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+            <state relative-caret-position="693">
+              <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1519553790879" expanded="true" signature="1077:1170" ph="mutation...{&#10;    createChannel(teamId: $teamId, name: $name)&#10;  }" />
-                <marker date="1519553790879" expanded="true" signature="1085:1116" ph="(...)" />
-                <marker date="1519553790879" expanded="true" signature="1095:1098" ph="Int...Int" />
-                <marker date="1519553790879" expanded="true" signature="1108:1114" ph="String...String" />
-                <marker date="1519553790879" expanded="true" signature="1117:1170" ph="{...}" />
-                <marker date="1519553790879" expanded="true" signature="1123:1136" ph="createChannel...createChannel" />
-                <marker date="1519553790879" expanded="true" signature="1136:1166" ph="(...)" />
-                <marker date="1519553790879" expanded="true" signature="1137:1143" ph="teamId...teamId" />
-                <marker date="1519553790879" expanded="true" signature="1154:1158" ph="name...name" />
+                <marker date="1519560240648" expanded="true" signature="1077:1170" ph="mutation...{&#10;    createChannel(teamId: $teamId, name: $name)&#10;  }" />
+                <marker date="1519560240648" expanded="true" signature="1085:1116" ph="(...)" />
+                <marker date="1519560240648" expanded="true" signature="1095:1098" ph="Int...Int" />
+                <marker date="1519560240648" expanded="true" signature="1108:1114" ph="String...String" />
+                <marker date="1519560240648" expanded="true" signature="1117:1170" ph="{...}" />
+                <marker date="1519560240648" expanded="true" signature="1123:1136" ph="createChannel...createChannel" />
+                <marker date="1519560240648" expanded="true" signature="1136:1166" ph="(...)" />
+                <marker date="1519560240648" expanded="true" signature="1137:1143" ph="teamId...teamId" />
+                <marker date="1519560240648" expanded="true" signature="1154:1158" ph="name...name" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Channels.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Channels.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Channels.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+            <state relative-caret-position="1470">
+              <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -166,18 +156,18 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/registerServiceWorker.js" />
-        <option value="$PROJECT_DIR$/src/components/Channels.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/routes/Home.js" />
         <option value="$PROJECT_DIR$/src/routes/Login.js" />
         <option value="$PROJECT_DIR$/src/routes/Register.js" />
         <option value="$PROJECT_DIR$/.eslintrc.js" />
         <option value="$PROJECT_DIR$/src/components/Teams.js" />
-        <option value="$PROJECT_DIR$/src/containers/Sidebar.js" />
-        <option value="$PROJECT_DIR$/src/routes/CreateTeam.js" />
         <option value="$PROJECT_DIR$/src/routes/ViewTeam.js" />
         <option value="$PROJECT_DIR$/src/routes/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Channels.js" />
+        <option value="$PROJECT_DIR$/src/routes/CreateTeam.js" />
         <option value="$PROJECT_DIR$/src/components/AddChannelModal.js" />
+        <option value="$PROJECT_DIR$/src/containers/Sidebar.js" />
       </list>
     </option>
   </component>
@@ -303,7 +293,7 @@
       <workItem from="1518293348185" duration="3434000" />
       <workItem from="1518541032650" duration="6822000" />
       <workItem from="1519464828046" duration="10547000" />
-      <workItem from="1519545719544" duration="2863000" />
+      <workItem from="1519545719544" duration="9711000" />
     </task>
     <task id="LOCAL-00001" summary="Made containers &amp; updating to react-apollo v2">
       <created>1519478015385</created>
@@ -312,11 +302,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519478015385</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding channel form">
+      <created>1519553843810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519553843810</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27909000" />
+    <option name="totallyTimeSpent" value="34757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -372,7 +369,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Made containers &amp; updating to react-apollo v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made containers &amp; updating to react-apollo v2" />
+    <MESSAGE value="Adding channel form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding channel form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -398,6 +396,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -650,6 +649,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -842,6 +842,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -944,62 +945,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Channels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Teams.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
+        <state relative-caret-position="504">
           <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Sidebar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <marker date="1519552409782" expanded="true" signature="1136:1231" ph="{...}" />
-            <marker date="1519552409782" expanded="true" signature="1142:1150" ph="allTeams...allTeams" />
-            <marker date="1519552409782" expanded="true" signature="1142:1227" ph="allTeams...{&#10;      id&#10;      name&#10;      channels {&#10;        id&#10;        name&#10;      }&#10;    }" />
-            <marker date="1519552409782" expanded="true" signature="1151:1227" ph="{...}" />
-            <marker date="1519552409782" expanded="true" signature="1159:1161" ph="id...id" />
-            <marker date="1519552409782" expanded="true" signature="1168:1172" ph="name...name" />
-            <marker date="1519552409782" expanded="true" signature="1179:1187" ph="channels...channels" />
-            <marker date="1519552409782" expanded="true" signature="1179:1221" ph="channels...{&#10;        id&#10;        name&#10;      }" />
-            <marker date="1519552409782" expanded="true" signature="1188:1221" ph="{...}" />
-            <marker date="1519552409782" expanded="true" signature="1198:1200" ph="id...id" />
-            <marker date="1519552409782" expanded="true" signature="1209:1213" ph="name...name" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/CreateTeam.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="99" column="8" lean-forward="false" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <marker date="1519552480914" expanded="true" signature="1936:2095" ph="mutation...{&#10;    createTeam(name: $name) {&#10;      ok&#10;      errors {&#10;        path&#10;        message&#10;      }&#10;    }&#10;  }" />
-            <marker date="1519552480914" expanded="true" signature="1944:1960" ph="(...)" />
-            <marker date="1519552480914" expanded="true" signature="1952:1958" ph="String...String" />
-            <marker date="1519552480914" expanded="true" signature="1961:2095" ph="{...}" />
-            <marker date="1519552480914" expanded="true" signature="1967:1977" ph="createTeam...createTeam" />
-            <marker date="1519552480914" expanded="true" signature="1967:2091" ph="createTeam...{&#10;      ok&#10;      errors {&#10;        path&#10;        message&#10;      }&#10;    }" />
-            <marker date="1519552480914" expanded="true" signature="1977:1990" ph="(...)" />
-            <marker date="1519552480914" expanded="true" signature="1978:1982" ph="name...name" />
-            <marker date="1519552480914" expanded="true" signature="1991:2091" ph="{...}" />
-            <marker date="1519552480914" expanded="true" signature="1999:2001" ph="ok...ok" />
-            <marker date="1519552480914" expanded="true" signature="2008:2012" ph="team...team" />
-            <marker date="1519552480914" expanded="true" signature="2008:2033" ph="team...{&#10;        id&#10;      }" />
-            <marker date="1519552480914" expanded="true" signature="2013:2033" ph="{...}" />
-            <marker date="1519552480914" expanded="true" signature="2023:2025" ph="id...id" />
-            <marker date="1519552480914" expanded="true" signature="2040:2046" ph="errors...errors" />
-            <marker date="1519552480914" expanded="true" signature="2040:2085" ph="errors...{&#10;        path&#10;        message&#10;      }" />
-            <marker date="1519552480914" expanded="true" signature="2047:2085" ph="{...}" />
-            <marker date="1519552480914" expanded="true" signature="2057:2061" ph="path...path" />
-            <marker date="1519552480914" expanded="true" signature="2070:2077" ph="message...message" />
           </folding>
         </state>
       </provider>
@@ -1012,41 +983,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/CreateTeam.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="882">
+          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <marker date="1519557545280" expanded="true" signature="1936:2095" ph="mutation...{&#10;    createTeam(name: $name) {&#10;      ok&#10;      errors {&#10;        path&#10;        message&#10;      }&#10;    }&#10;  }" />
+            <marker date="1519557545280" expanded="true" signature="1944:1960" ph="(...)" />
+            <marker date="1519557545280" expanded="true" signature="1952:1958" ph="String...String" />
+            <marker date="1519557545280" expanded="true" signature="1961:2095" ph="{...}" />
+            <marker date="1519557545280" expanded="true" signature="1967:1977" ph="createTeam...createTeam" />
+            <marker date="1519557545280" expanded="true" signature="1967:2091" ph="createTeam...{&#10;      ok&#10;      errors {&#10;        path&#10;        message&#10;      }&#10;    }" />
+            <marker date="1519557545280" expanded="true" signature="1977:1990" ph="(...)" />
+            <marker date="1519557545280" expanded="true" signature="1978:1982" ph="name...name" />
+            <marker date="1519557545280" expanded="true" signature="1991:2091" ph="{...}" />
+            <marker date="1519557545280" expanded="true" signature="1999:2001" ph="ok...ok" />
+            <marker date="1519557545280" expanded="true" signature="2008:2012" ph="team...team" />
+            <marker date="1519557545280" expanded="true" signature="2008:2033" ph="team...{&#10;        id&#10;      }" />
+            <marker date="1519557545280" expanded="true" signature="2013:2033" ph="{...}" />
+            <marker date="1519557545280" expanded="true" signature="2023:2025" ph="id...id" />
+            <marker date="1519557545280" expanded="true" signature="2040:2046" ph="errors...errors" />
+            <marker date="1519557545280" expanded="true" signature="2040:2085" ph="errors...{&#10;        path&#10;        message&#10;      }" />
+            <marker date="1519557545280" expanded="true" signature="2047:2085" ph="{...}" />
+            <marker date="1519557545280" expanded="true" signature="2057:2061" ph="path...path" />
+            <marker date="1519557545280" expanded="true" signature="2070:2077" ph="message...message" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AddChannelModal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        <state relative-caret-position="693">
+          <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <marker date="1519553790879" expanded="true" signature="1077:1170" ph="mutation...{&#10;    createChannel(teamId: $teamId, name: $name)&#10;  }" />
-            <marker date="1519553790879" expanded="true" signature="1085:1116" ph="(...)" />
-            <marker date="1519553790879" expanded="true" signature="1095:1098" ph="Int...Int" />
-            <marker date="1519553790879" expanded="true" signature="1108:1114" ph="String...String" />
-            <marker date="1519553790879" expanded="true" signature="1117:1170" ph="{...}" />
-            <marker date="1519553790879" expanded="true" signature="1123:1136" ph="createChannel...createChannel" />
-            <marker date="1519553790879" expanded="true" signature="1136:1166" ph="(...)" />
-            <marker date="1519553790879" expanded="true" signature="1137:1143" ph="teamId...teamId" />
-            <marker date="1519553790879" expanded="true" signature="1154:1158" ph="name...name" />
+            <marker date="1519560240648" expanded="true" signature="1077:1170" ph="mutation...{&#10;    createChannel(teamId: $teamId, name: $name)&#10;  }" />
+            <marker date="1519560240648" expanded="true" signature="1085:1116" ph="(...)" />
+            <marker date="1519560240648" expanded="true" signature="1095:1098" ph="Int...Int" />
+            <marker date="1519560240648" expanded="true" signature="1108:1114" ph="String...String" />
+            <marker date="1519560240648" expanded="true" signature="1117:1170" ph="{...}" />
+            <marker date="1519560240648" expanded="true" signature="1123:1136" ph="createChannel...createChannel" />
+            <marker date="1519560240648" expanded="true" signature="1136:1166" ph="(...)" />
+            <marker date="1519560240648" expanded="true" signature="1137:1143" ph="teamId...teamId" />
+            <marker date="1519560240648" expanded="true" signature="1154:1158" ph="name...name" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Channels.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/Sidebar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        <state relative-caret-position="71">
+          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <marker date="1519560542040" expanded="true" signature="1787:1882" ph="{...}" />
+            <marker date="1519560542040" expanded="true" signature="1793:1801" ph="allTeams...allTeams" />
+            <marker date="1519560542040" expanded="true" signature="1793:1878" ph="allTeams...{&#10;      id&#10;      name&#10;      channels {&#10;        id&#10;        name&#10;      }&#10;    }" />
+            <marker date="1519560542040" expanded="true" signature="1802:1878" ph="{...}" />
+            <marker date="1519560542040" expanded="true" signature="1810:1812" ph="id...id" />
+            <marker date="1519560542040" expanded="true" signature="1819:1823" ph="name...name" />
+            <marker date="1519560542040" expanded="true" signature="1830:1838" ph="channels...channels" />
+            <marker date="1519560542040" expanded="true" signature="1830:1872" ph="channels...{&#10;        id&#10;        name&#10;      }" />
+            <marker date="1519560542040" expanded="true" signature="1839:1872" ph="{...}" />
+            <marker date="1519560542040" expanded="true" signature="1849:1851" ph="id...id" />
+            <marker date="1519560542040" expanded="true" signature="1860:1864" ph="name...name" />
           </folding>
         </state>
       </provider>
