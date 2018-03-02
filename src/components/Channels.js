@@ -43,7 +43,7 @@ const Green = styled.span`
   color: #38978d;
 `;
 
-const Bubble = ({ on = true }) => (on ? <Green /> : 'o');
+const Bubble = ({ on = true }) => (on ? <Green>●</Green> : 'o');
 
 const channel = ({ id, name }, teamId) => (
   <Link key={`channel-${id}`} to={`/view-team/${teamId}/${id}`}>
@@ -64,6 +64,7 @@ export default ({
   users,
   onAddChannelClick,
   teamId,
+  onInvitePeopleClick,
 }) => (
   <ChannelWrapper>
     <PushLeft>
@@ -83,6 +84,11 @@ export default ({
         <SideBarListHeader>Direct Messages</SideBarListHeader>
         {users.map(user)}
       </SideBarList>
+    </div>
+    <div>
+      <a href="#invite-people" onClick={onInvitePeopleClick}>
+        + Invite People
+      </a>
     </div>
   </ChannelWrapper>
 );
