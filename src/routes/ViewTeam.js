@@ -4,7 +4,7 @@ import findIndex from 'lodash/findIndex';
 import { Redirect } from 'react-router-dom';
 
 import Header from '../components/Header';
-import Messages from '../components/Messages';
+import MessageContainer from '../containers/MessageContainer';
 import SendMessage from '../components/SendMessage';
 import AppLayout from '../components/AppLayout';
 import Sidebar from '../containers/Sidebar';
@@ -17,7 +17,6 @@ const ViewTeam = ({
   if (loading) {
     return null;
   }
-
   const teams = [...allTeams, ...inviteTeams];
 
   if (!teams.length) {
@@ -36,22 +35,15 @@ const ViewTeam = ({
   return (
     <AppLayout>
       <Sidebar
-        teams={teams.map((t) => ({
+        teams={teams.map(t => ({
           id: t.id,
           letter: t.name.charAt(0).toUpperCase(),
         }))}
         team={team}
       />
       {channel && <Header channelName={channel.name} />}
-      {channel && (
-        <Messages channelId={channel.id}>
-          <ul className="messages-list">
-            <li />
-            <li />
-          </ul>
-        </Messages>
-      )}
-      {channel && <SendMessage channelName={channel.name} />}
+      {channel && <MessageContainer channelId={channel.id} />}
+      {channel && <SendMessage channelName={channel.name} channelId={channel.id} />}
     </AppLayout>
   );
 };
